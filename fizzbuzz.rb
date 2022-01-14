@@ -1,4 +1,9 @@
 # write fizzbuzz code here
 
-puts "Fizz"
-puts "Buzz"
+(1..20).each do |i|
+  if i % 3 == 0
+    puts "Fizz"
+  elsif i % 5 == 0
+    puts "Buzz"
+  end
+end
